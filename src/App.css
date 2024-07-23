@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .left-panel {
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid #ccc;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .right-panel {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sendbird-conversation__scroll-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
